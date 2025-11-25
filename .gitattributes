@@ -1,0 +1,5 @@
+bigdata_preprocess.csv filter=lfs diff=lfs merge=lfs -text
+kafka_producer/consumed_messages.json filter=lfs diff=lfs merge=lfs -text
+kafka_producer/consumed_messages_2.json filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+kafka_producer/*.json filter=lfs diff=lfs merge=lfs -text
